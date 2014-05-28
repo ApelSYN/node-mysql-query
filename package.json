@@ -1,0 +1,40 @@
+{
+  "name": "mysql-query",
+  "version": "0.0.1",
+  "main": "./lib/mysql-query.js ",
+  "description": "Mysql service query intrface for simple build sql query through build mysql pool connections",
+  "author": {
+    "name": "Oleg Cherniy",
+    "email": "oleg.cherniy@gmail.com"
+  },
+  "homepage": "http://github.com/ApelSYN/node-mysql-query/",
+  "directories": {
+    "lib": "./lib",
+    "config": "./config"
+  },
+  "licenses": [
+    "MIT"
+  ],
+  "dependencies": {
+    "config": "0.4.x",
+    "mysql": ">2.x.x"
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ApelSYN/node-mysql-query"
+  },
+  "engines": {
+    "node": ">0.4.x"
+  },
+  "scripts": {
+  },
+  "readme": "mysql-query\n===========\n\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/ApelSYN/node-mysql-query/issues"
+  },
+  "_id": "mysql-query@0.0.1",
+  "_from": "mysql-query@"
+}
