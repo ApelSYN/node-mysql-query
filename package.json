@@ -17,7 +17,7 @@
   ],
   "dependencies": {
     "config": "0.4.x",
-    "mysql": ">2.x.x"
+    "mysql": ">=2.x.x"
   },
   "devDependencies": {
   },

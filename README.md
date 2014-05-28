@@ -36,8 +36,33 @@ Quick Start
       (example fragment of package.json file):
 
       "dependencies": {
-         "connect": "git://github.com/ApelSYN/node-mysql-query.git#master"
+         "mysql-query": "git://github.com/ApelSYN/node-mysql-query.git#master"
+      }
+
+      or
+
+      "dependencies": {
+         "mysql-query": "https://github.com/ApelSYN/node-mysql-query/tarball/master"
       }
 
 **Install the package:**
+
       my-project$ npm install mysql-query
+
+***Edit the mysql configuration file:**
+
+      my-project$ vi config/default.js
+
+      module.exports = {
+            database: {
+                master: {
+                    host: "localhost",
+                    user: "root",
+                    password: "",
+                    port: "3306",
+                    database: "test",
+                    connectionLimit: 3
+                }
+      }
+
+      See https://www.npmjs.org/package/config about using 'config' module
