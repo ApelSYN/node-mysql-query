@@ -65,4 +65,4 @@ Quick Start
                 }
       }
 
-      See [https://www.npmjs.org/package/config] about using 'config' module
+      See [config](https://www.npmjs.org/package/config) about using 'config' module
