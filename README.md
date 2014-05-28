@@ -65,4 +65,4 @@ Quick Start
                 }
       }
 
-      See <a href="https://www.npmjs.org/package/config">Config</a> about using 'config' module
+      See https://www.npmjs.org/package/config about using 'config' module
