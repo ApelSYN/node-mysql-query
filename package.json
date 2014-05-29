@@ -1,6 +1,6 @@
 {
   "name": "mysql-query",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "./lib/mysql-query.js",
   "description": "Mysql service query interface for simple build sql query through mysql pool connections",
   "author": {
