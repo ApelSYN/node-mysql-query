@@ -27,11 +27,11 @@ query(qs, ['param1','param2'], 'master', function(err, rows, fields) {
 Quick Start
 -----------
 
-**In your project directory, install and verify using npm:**
+**In your project directory, install and verify using npm: **
 
       my-project$ npm init
 
-**Edit the default package.json file:**
+**Edit the default package.json file: **
 
       (example fragment of package.json file):
 ```
@@ -50,7 +50,7 @@ Quick Start
 
       my-project$ npm install mysql-query
 
-***Edit the mysql configuration file:**
+**Edit the mysql configuration file:**
 ```
       my-project$ vi config/default.js
 
