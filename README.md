@@ -8,19 +8,20 @@ Introduction
 ------------
 
 Example:
-```
-var query = require('mysql-query');
 
-var qs = "show databases";
+```javascript
+    var query = require('mysql-query');
 
-query(qs, ['param1','param2'], 'master', function(err, rows, fields) {
-    if (rows.length) {
-        console.log(rows);
-        process.exit(0);
-    } else {
-        new Error('There is an Error ');
-    }
-});
+    var qs = "show databases";
+
+    query(qs, ['param1','param2'], 'master', function(err, rows, fields) {
+        if (rows.length) {
+            console.log(rows);
+            process.exit(0);
+        } else {
+            new Error('There is an Error ');
+        }
+    });
 ```
 
 
@@ -34,7 +35,8 @@ Quick Start
 **Edit the default package.json file: **
 
       (example fragment of package.json file):
-```
+
+```javascript
       "dependencies": {
          "mysql-query": "git://github.com/ApelSYN/node-mysql-query.git#master"
       }
@@ -51,9 +53,10 @@ Quick Start
       my-project$ npm install mysql-query
 
 **Edit the mysql configuration file:**
-```
+
       my-project$ vi config/default.js
 
+```javascript
       module.exports = {
             database: {
                 master: {
