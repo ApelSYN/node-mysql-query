@@ -8,7 +8,7 @@ Introduction
 ------------
 
 Example:
-
+```
 var query = require('mysql-query');
 
 var qs = "show databases";
@@ -21,7 +21,7 @@ query(qs, ['param1','param2'], 'master', function(err, rows, fields) {
         new Error('There is an Error ');
     }
 });
-
+```
 
 
 Quick Start
@@ -34,7 +34,7 @@ Quick Start
 **Edit the default package.json file:**
 
       (example fragment of package.json file):
-
+```
       "dependencies": {
          "mysql-query": "git://github.com/ApelSYN/node-mysql-query.git#master"
       }
@@ -44,6 +44,7 @@ Quick Start
       "dependencies": {
          "mysql-query": "https://github.com/ApelSYN/node-mysql-query/tarball/master"
       }
+```
 
 **Install the package:**
 
